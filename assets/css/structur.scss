@@ -1,0 +1,89 @@
+body{
+   	font-family: 'Lato', sans-serif;
+   @media (min-width: 768px){
+   }
+   .language {
+   	height: 30px;
+   	font-size: 14px;
+   	color: $purple;
+   	text-align: right;
+   	ul{
+   		    padding: 3px 27px;
+   	}
+   	li{
+   		display: inline;
+	   	i{
+	   		vertical-align: text-top;
+	   		font-size: 20px;
+	   	}
+	   	a{
+	   		vertical-align: bottom; 
+	   	}
+   	}
+   }
+   nav{
+   	min-height: 63px;
+    transition: height .4s;
+   	@media (min-width: 768px){
+   			min-height: 240px;
+   	}
+   	@media (min-width: 992px){
+   			min-height: 300px;
+   	}
+
+   	//∆∆ Logo
+   	.brand-logo{
+   		font-size: 18px;
+   		margin-left: 20px;
+   	}
+   	h1{
+   		margin-bottom: 0;
+   		font-size: 2.2em;
+   		@media (min-width: 768px){
+   			font-size: 2.8em;
+   		}
+   		@media (min-width: 992px){
+   			font-size: 3.6em;
+   		}
+   		@media (min-width: 1440px){
+   			font-size: 4.1em;
+   		}
+   	}
+   	p{
+   		margin: 0;
+   		padding: 0;
+   		line-height: 43px;
+   	}
+   }
+}
+
+footer{
+   .container{
+      a{
+         padding: 4px 10px;
+         display: inline-block;
+         transition: all .2s;
+         &:hover{
+           background-color: rgba(black, .2);
+         }
+      }
+   }
+}
+
+.grid-item--width2 { 
+   width:50%;
+    @media(min-width:620px){
+      width: 50%;
+    }
+    @media(min-width:992px){
+      width: 33%;
+    }
+    @media(min-width:1440px){
+      width: 25%;
+    }
+}
+
+
+
+
+

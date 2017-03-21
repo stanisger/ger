@@ -1,0 +1,111 @@
+// ∆∆ Font
+.thing{
+	font-weight: 100;
+}
+.light{
+	font-weight: 300;
+}
+.regular{
+	font-weight: 400;
+}
+.medium{
+	font-weight: 500;
+}
+.bold{
+	font-weight: 700;
+}
+.exBold{
+	font-weight: 900;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.secondFont{
+	font-family: 'Signika Negative', sans-serif;
+}
+
+
+.title{
+	font-size: 16px;
+	margin: 18px 0;
+}
+
+.titleModal{
+	font-size: 22px;
+	margin: 18px 0;
+	@media(min-width: 768px){
+		margin: 24px 0 18px;
+	}
+}
+
+
+
+
+// ∆∆ color
+.opacityMedium{
+	opacity: .3;
+}
+
+
+//∆∆ Position
+.absolute{
+	position: absolute;
+}
+.relative{
+	position: relative;
+}
+.fixed{
+	position: fixed;
+}
+
+
+
+.block{
+	display: block;
+}
+
+.iniline-block{
+	display: inline-block;
+}
+
+
+.w100{
+	width: 100%;
+}
+ .h100{
+ 	height: 100%;
+ }
+
+
+ ul.general{
+ 	li{
+ 		display: inline !important;
+ 		i{
+ 			padding-right: 7px; 
+ 		}
+ 	}
+ }
+
+ .paddingCero{
+ 	padding:0 !important;
+ }	
+
+
+ .select{
+ 	opacity: 1;
+ }
+
+
+ .hover{
+ 	transition: opacity .2;
+ 	&:hover{
+ 		opacity: .5; 
+ 	}
+ }
+
+
+
+
+
