@@ -162,6 +162,16 @@ body {
         font-size: 20px; }
       body .language li a {
         vertical-align: bottom; }
+  body nav ul a.active {
+    position: relative; }
+    body nav ul a.active:before {
+      content: "";
+      position: absolute;
+      bottom: 15px;
+      left: 12%;
+      height: 1px;
+      width: 80%;
+      background: rgba(255, 255, 255, 0.2); }
   body nav {
     min-height: 63px;
     transition: height .4s; }
@@ -269,6 +279,9 @@ footer .container a {
 .tab .gallery {
   padding: 46px 0; }
   .tab .gallery .card {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.34), 0 1px 5px 0 rgba(0, 0, 0, 0.32), 0 3px 1px -2px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.34), 0 1px 5px 0 rgba(0, 0, 0, 0.32), 0 3px 1px -2px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.34), 0 1px 5px 0 rgba(0, 0, 0, 0.32), 0 3px 1px -2px rgba(0, 0, 0, 0.32);
     margin: .4em; }
     @media (min-width: 992px) {
       .tab .gallery .card {
@@ -332,10 +345,10 @@ footer .container a {
           height: 700px; } }
       @media (min-width: 1200px) {
         .bottom-sheet .modal-content .eyecatcherTwo {
-          height: 700px; } }
+          height: 1000px; } }
       @media (min-width: 1680px) {
         .bottom-sheet .modal-content .eyecatcherTwo {
-          height: 1059px; } }
+          height: 1159px; } }
       .bottom-sheet .modal-content .eyecatcherTwo .decription {
         padding: 54px  24px; }
         @media (min-width: 768px) {
