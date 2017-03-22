@@ -1,4 +1,10 @@
 @import url(./assets/font/flaticon.css);
+.colorRedLight {
+  color: #f8e1e1 !important; }
+
+.bgRedLight {
+  background-color: #f8e1e1 !important; }
+
 .colorPurple {
   color: #322840 !important; }
 
@@ -321,14 +327,22 @@ footer .container a {
       .bottom-sheet .modal-header {
         width: 74%;
         margin: 0 auto; } }
-    .bottom-sheet .modal-header a {
+    .bottom-sheet .modal-header a:nth-child(1) {
       border-radius: 50%;
       width: 42px;
       height: 42px;
       padding: 9px;
       transition: opacity .4s; }
-      .bottom-sheet .modal-header a:hover {
+      .bottom-sheet .modal-header a:nth-child(1):hover {
         opacity: .6; }
+    .bottom-sheet .modal-header a:nth-child(3) {
+      top: 18px;
+      right: 36px;
+      display: none;
+      position: absolute; }
+      @media (min-width: 1230px) {
+        .bottom-sheet .modal-header a:nth-child(3) {
+          display: inline; } }
   .bottom-sheet .modal-content {
     padding: 0px;
     width: 100%;

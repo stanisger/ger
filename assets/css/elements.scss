@@ -120,11 +120,11 @@
 	.modal-header{
 		width: 100%;
 		padding: 18px 36px;
-		@media(min-width: 1230px){
+		@media(min-width: 1230px){ 
 			width: 74%;
 			margin: 0 auto;
 		}
-        a{
+       a:nth-child(1){
             border-radius: 50%;
             width: 42px;
             height: 42px;
@@ -132,6 +132,18 @@
             transition: opacity .4s;
             &:hover{
                 opacity: .6;
+            }
+
+        }
+        a:nth-child(3){
+            top: 18px;
+            right: 36px;
+            display: none;
+            position: absolute;
+            @media(min-width:1230px){
+                display: inline;
+
+             
             }
 
         }
