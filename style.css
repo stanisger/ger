@@ -1,4 +1,10 @@
 @import url(./assets/font/flaticon.css);
+.colorTransparent {
+  color: transparent !important; }
+
+.bgTransparent {
+  background-color: transparent !important; }
+
 .colorRedLight {
   color: #f8e1e1 !important; }
 
@@ -293,14 +299,24 @@ footer .container a {
       .tab .gallery .card {
         margin: 1.5em; } }
     .tab .gallery .card span {
-      right: 9px;
-      top: 18px; }
+      right: 5px;
+      top: 5px;
+      box-shadow: none; }
+      .tab .gallery .card span i {
+        font-size: 36px; }
       @media (min-width: 992px) {
         .tab .gallery .card span {
           top: initial;
-          bottom: 41px; } }
+          bottom: 12px; } }
     .tab .gallery .card .card-action {
       padding: 9px; }
+      .tab .gallery .card .card-action :nth-child(1) {
+        display: none; }
+      .tab .gallery .card .card-action :nth-child(2) {
+        display: none; }
+        @media (min-width: 768px) {
+          .tab .gallery .card .card-action :nth-child(2) {
+            display: initial; } }
       .tab .gallery .card .card-action a {
         font-size: 12px; }
       @media (min-width: 992px) {

@@ -1,4 +1,15 @@
 // ∆∆∆   COLORs   ∆∆∆
+
+$transparent: transparent;
+.colorTransparent{
+	color: $transparent !important;
+}
+.bgTransparent{
+	background-color: $transparent !important;
+}
+
+
+
 $redLight: #f8e1e1;
 .colorRedLight{
 	color: $redLight !important;

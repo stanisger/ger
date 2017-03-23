@@ -79,15 +79,29 @@
 			margin: 1.5em;
 			}
 			span{
-				right: 9px;
-				top: 18px;
+				right: 5px;
+				top: 5px;
+                box-shadow: none;
+                i{
+                    font-size: 36px;
+                }
+
 				@media(min-width:992px){
-					top: initial;
-					bottom: 41px;
+				top: initial;
+				bottom: 12px;
 				}
 			}
 			.card-action{
 				padding: 9px;
+                :nth-child(1){
+                    display: none;
+                }
+                :nth-child(2){
+                    display: none;
+                    @media(min-width:768px){
+                        display: initial;
+                    }
+                }
 				a{
 					font-size: 12px;
 				}

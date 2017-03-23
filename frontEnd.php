@@ -8,8 +8,8 @@
           <div class="grid-item grid-item--width2">
             <a href="#modal1">
               <div class="card relative">
-                 <span  href="#modal1" class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgMossLight">
-                  <i class="material-icons colorMoss">add</i>
+                 <span class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgTransparent">
+                  <i class="material-icons colorMossLight">add</i>
                 </span>
                 <div class="card-image">
                   <img src="assets/images/centralCoachingColor.png">
@@ -68,7 +68,7 @@
                     <i class="material-icons colorPurple">add</i>
                 </span>
               <div class="card-image">
-                <img src="assets/images/PrintSpot.jpg">
+                <img src="assets/images/printSpot.jpg">
                 </div>
 
                 <div class="card-action bgPurple">
