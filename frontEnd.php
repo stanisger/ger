@@ -27,8 +27,8 @@
           <div class="grid-item grid-item--width2">
              <a href="#modal2">
               <div class="card relative">
-                <span  href="#modal2" class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgPurpleLight">
-                  <i class="material-icons colorPurple">add</i>
+                <span class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgTransparent">
+                  <i class="material-icons colorPurpleLight">add</i>
                 </span>
               <div class="card-image">
                 <img src="assets/images/bhr.jpg">
@@ -46,8 +46,8 @@
             <!-- modal4 = canan gallery -->
             <a href="#modal4">
             <div class="card relative">
-              <span  href="#modal4" class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgPurpleLight">
-                <i class="material-icons colorPurple">add</i>
+              <span class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgTransparent">
+                  <i class="material-icons colorPurpleLight">add</i>
               </span>
               <div class="card-image">
                 <img src="assets/images/galeriaCanon.jpg">
@@ -59,13 +59,37 @@
             </a>
           </div>
 
-          <!--∆ ELEMENTO 7 ∆-->
+
+
+
+          <!-- modal4 = aristea -->
+        <!--∆ ELEMENTO 4 ∆-->
         <div class="grid-item grid-item--width2">
+          <a href="#modal3">
+          <div class="card relative">
+              <span class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgTransparent">
+                  <i class="material-icons colorPurpleLight">add</i>
+              </span>
+            <div class="card-image">
+              <img src="assets/images/aristea.jpg">
+              </div>
+
+             <div class="card-action bgPurple">
+                <a href="#" class="secondFont colorPurpleLight">Aristea</a>
+              </div>
+          </div>
+          </a>
+        </div>
+
+
+
+          <!--∆ ELEMENTO 7 ∆-->
           <!-- modal4 = canan gallery -->
+        <div class="grid-item grid-item--width2">
             <a href="#modal5">
             <div class="card relative">
-                <span  href="#modal5" class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgPurpleLight">
-                    <i class="material-icons colorPurple">add</i>
+                <span class="waves-effect waves-circle btn-floating secondary-content modal-trigger absolute bgTransparent">
+                  <i class="material-icons colorPurpleLight">add</i>
                 </span>
               <div class="card-image">
                 <img src="assets/images/printSpot.jpg">

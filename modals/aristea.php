@@ -1,10 +1,17 @@
 
    <!-- Modal Structure -->
   <div id="modal3" class="modal bottom-sheet ">
-    <div class="modal-header bgGray ">
-      <a href ="#"class="material-icons modal-action modal-close fixed colorWhite">close</a>
-      <h2 class="colorWhite titleModal thing secondFont">ARISTEA <strong>DESAROLOS</strong> </h2>
-    </div>
+     <!-- head -->
+      <div class="modal-header bgPurple relative">
+        <a href ="#"class="material-icons modal-action modal-close fixed colorWhite bgPurple bold">close</a>
+        <h2 class="colorWhite titleModal thing secondFont">ARISTEA DESARROLLOS</h2>
+        <a class="absolute" href="http://aristead.mx/" target="_blank">
+         <i class="material-icons colorPurpleLight small">launch</i>
+        </a> 
+      </div>
+
+
+
     <div class="modal-content row">
 
       <div class="eyecatcher col s12 bgWhite relative">
@@ -17,7 +24,7 @@
       <div class="main col s12 m8 bgGrayLight02 relative">
          <i class="flaticon-apple colorBlue center-align absolute"></i>
           <figure class="absolute hidden centerAbsolute">
-            <img src="./assets/images/blt/home-tablet.gif" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">
+            <img src="./assets/images/ari/home-tablet.jpg" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">
           </figure> 
       </div>
       <div class="mainor col s12 m4 bgBlueLigth  relative">
@@ -52,7 +59,7 @@
               
             </ul>
           <br><br>
-          <a href="centralcoaching.com" target="_blank" class="colorPurple fontSecond">www.centralcoaching.com</a>
+          <a href="http://aristead.mx/" target="_blank" class="colorPurple fontSecond">www.aristead.mx</a>
         </div>
         <div class="col s12 m6 bgWhite relative paddingCero"> 
           <img class="w100"src="./assets/images/ari/diseno.jpg" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">

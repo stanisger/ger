@@ -6,16 +6,10 @@
 
 
     <!--∆ link tabs∆-->
-    <ul id="tabs-swipe-demo" class="tabs">
-      <li class="tab">
-        <a href="#test-swipe-1" class="title colorPurple bold active">Front End &  <strong class="light">Diseño Web</strong></a>
-      </li>
-      <li class="tab">
-        <a  id="btnss" href="#test-swipe-2 " class="title colorPurple  bold ">Diseño Gráfico</a>
-      </li>
-      <li class="tab">
-        <a href="#test-swipe-3" class="title colorPurple  bold">Illustración</a>
-      </li>
+    <ul id="tabs-swipe-demo" class="tabs"> 
+        <li class="tab "><a class="title colorPurple thing active" href="#test-swipe-1"> <strong>DISEÑO WEB</strong> & FRONT END</a></li>
+        <li class="tab "><a class="title colorPurple thing" href="#test-swipe-2">DISEÑO GRÁFICO</a></li>
+        <li class="tab  "><a class="title colorPurple thing" href="#test-swipe-3">ILUSTRACIÓN</a></li>
     </ul>
     <p class="secondFont light colorGray"> <strong class="bold">Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Excepturi blanditiis, architecto dicta. Quam maiores dolore ipsum suscipit, sint sequi praesentium modi,vero perspiciatis, accusamus hic quaerat laborum, voluptatum voluptas necessitatibus! </p>
     

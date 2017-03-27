@@ -45,7 +45,7 @@
      <div id="slideshowWrapper">
               <ul id="slideshow">
                   <li id="one"><h1 class="center-align thing colorPurpleLight "><strong>F</strong>RONT<strong>E</strong>ND </h1></li> <!-- This is the last image in the slideshow -->
-                  <li  ><h1 class="center-align thing colorPurpleLight "><strong>W</strong>EB <strong>D</strong>ESIGNER </h1> </li> <!-- This is the first image in the slideshow -->
+                  <li  ><h1 class="center-align thing colorPurpleLight "><strong>WEB</strong>DESIGNER </h1> </li> <!-- This is the first image in the slideshow -->
               </ul>
       </div>   
 

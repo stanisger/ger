@@ -104,6 +104,9 @@
 .underline {
   text-decoration: underline; }
 
+.font {
+  font-family: 'Lato', sans-serif !important; }
+
 .secondFont {
   font-family: 'Signika Negative', sans-serif; }
 
@@ -117,6 +120,9 @@
   @media (min-width: 768px) {
     .titleModal {
       margin: 24px 0 18px; } }
+
+.underline {
+  text-decoration: underline !important; }
 
 .opacityMedium {
   opacity: .3; }
@@ -157,6 +163,10 @@ ul.general li {
   transition: opacity .2; }
   .hover:hover {
     opacity: .5; }
+
+.textSmall {
+  font-size: 18px;
+  font-style: normal; }
 
 body {
   font-family: 'Lato', sans-serif; }
@@ -294,8 +304,8 @@ footer .container a {
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.34), 0 1px 5px 0 rgba(0, 0, 0, 0.32), 0 3px 1px -2px rgba(0, 0, 0, 0.32);
     -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.34), 0 1px 5px 0 rgba(0, 0, 0, 0.32), 0 3px 1px -2px rgba(0, 0, 0, 0.32);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.34), 0 1px 5px 0 rgba(0, 0, 0, 0.32), 0 3px 1px -2px rgba(0, 0, 0, 0.32);
-    margin: .4em; }
-    @media (min-width: 992px) {
+    margin: .7em; }
+    @media (min-width: 768px) {
       .tab .gallery .card {
         margin: 1.5em; } }
     .tab .gallery .card span {
@@ -303,7 +313,7 @@ footer .container a {
       top: 5px;
       box-shadow: none; }
       .tab .gallery .card span i {
-        font-size: 36px; }
+        font-size: 29px; }
       @media (min-width: 992px) {
         .tab .gallery .card span {
           top: initial;
@@ -325,10 +335,15 @@ footer .container a {
           .tab .gallery .card .card-action a {
             font-size: 14px; } }
     .tab .gallery .card .card-image {
-      opacity: 1;
-      transition: opacity .4s; }
+      transition: opacity .4s;
+      background: black; }
       .tab .gallery .card .card-image:hover {
         opacity: .7; }
+      .tab .gallery .card .card-image img {
+        opacity: .7; }
+        @media (min-width: 768px) {
+          .tab .gallery .card .card-image img {
+            opacity: 1; } }
 
 .bottom-sheet {
   min-height: 100%;
@@ -339,7 +354,7 @@ footer .container a {
   .bottom-sheet .modal-header {
     width: 100%;
     padding: 18px 36px; }
-    @media (min-width: 1230px) {
+    @media (min-width: 1320px) {
       .bottom-sheet .modal-header {
         width: 74%;
         margin: 0 auto; } }
@@ -352,13 +367,14 @@ footer .container a {
       .bottom-sheet .modal-header a:nth-child(1):hover {
         opacity: .6; }
     .bottom-sheet .modal-header a:nth-child(3) {
-      top: 18px;
-      right: 36px;
-      display: none;
-      position: absolute; }
-      @media (min-width: 1230px) {
+      top: 96px;
+      right: 30px;
+      z-index: 7; }
+      @media (min-width: 1320px) {
         .bottom-sheet .modal-header a:nth-child(3) {
-          display: inline; } }
+          display: inline;
+          right: 36px;
+          top: 18px; } }
   .bottom-sheet .modal-content {
     padding: 0px;
     width: 100%;
@@ -387,6 +403,8 @@ footer .container a {
         @media (min-width: 1200px) {
           .bottom-sheet .modal-content .eyecatcherTwo .decription {
             padding: 90px; } }
+        .bottom-sheet .modal-content .eyecatcherTwo .decription a {
+          text-decoration: underline !important; }
     .bottom-sheet .modal-content .eyecatcher {
       height: 248px;
       overflow: hidden; }
@@ -553,14 +571,14 @@ footer .container a {
       top: 88px;
       z-index: 4;
       border-radius: 0px;
-      height: 185px;
+      height: 165px;
       overflow: hidden; }
       .bottom-sheet .modal-content .mainor figure img {
         width: 100%; }
       @media (min-width: 600px) {
         .bottom-sheet .modal-content .mainor figure {
           width: 7.2em;
-          height: 248px;
+          height: 144px;
           top: 85px; } }
       @media (min-width: 992px) {
         .bottom-sheet .modal-content .mainor figure {

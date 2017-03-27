@@ -22,6 +22,9 @@
 	text-decoration: underline;
 }
 
+.font{
+	  font-family: 'Lato', sans-serif !important;
+}
 .secondFont{
 	font-family: 'Signika Negative', sans-serif;
 }
@@ -38,6 +41,10 @@
 	@media(min-width: 768px){
 		margin: 24px 0 18px;
 	}
+}
+
+.underline{
+	text-decoration: underline !important;
 }
 
 
@@ -106,6 +113,9 @@
  }
 
 
-
+.textSmall{
+	font-size: 18px;
+	font-style: normal;
+}
 
 

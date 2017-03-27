@@ -4,6 +4,9 @@
     <div class="modal-header bgGray ">
       <a href ="#"class="material-icons modal-action modal-close fixed colorWhite">close</a>
       <h2 class="colorWhite titleModal thing secondFont">ARISTEA <strong>DESAROLOS</strong> </h2>
+      <a class="absolute" href="http://centralcoaching.com.mx" target="_blank">
+         <i class="material-icons colorPurpleLight small">launch</i>
+        </a> 
     </div>
     <div class="modal-content row">
 

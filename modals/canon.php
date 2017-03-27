@@ -3,11 +3,13 @@
   <!-- head -->
       <div class="modal-header bgPurple relative">
         <a href ="#"class="material-icons modal-action modal-close fixed colorWhite bgPurple bold">close</a>
-        <h2 class="colorWhite titleModal thing secondFont">Galería Canon</h2>
-        <a class="habsolute" href="http://galeriacanon.com" target="_blank">
+        <h2 class="colorWhite titleModal thing secondFont">Galeria Canon</h2>
+        <a class="absolute" href="http://galeriacanon.com.mx" target="_blank">
          <i class="material-icons colorPurpleLight small">launch</i>
         </a> 
       </div>
+
+
   <div class="modal-content row">
 
 

@@ -1,9 +1,17 @@
   <!-- Modal Structure -->
   <div id="modal2" class="modal bottom-sheet ">
-      <div class="modal-header bgPurple ">
-        <a href ="#" class="material-icons modal-action modal-close fixed colorWhite bgPurple">close</a>
-        <h2 class="colorWhite titleModal thing secondFont">BHR </h2>
+      <!-- head -->
+      <div class="modal-header bgPurple relative">
+        <a href ="#"class="material-icons modal-action modal-close fixed colorWhite bgPurple bold">close</a>
+        <h2 class="colorWhite titleModal thing secondFont">BHR <em class="thing colorWhite font textSmall"> Enterprice World Wide Mexico </em></h2>
+        <a class="absolute" href="http://centralcoaching.com.mx" target="_blank">
+         <i class="material-icons colorPurpleLight small">launch</i>
+        </a> 
       </div>
+
+
+
+
       <div class="modal-content row">
 
         <div class="eyecatcher col s12 bgWhite relative">
