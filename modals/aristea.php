@@ -3,7 +3,7 @@
   <div id="modal3" class="modal bottom-sheet ">
      <!-- head -->
       <div class="modal-header bgPurple relative">
-        <a href ="#"class="material-icons modal-action modal-close fixed colorWhite bgPurple bold">close</a>
+        <a  class="material-icons modal-action modal-close fixed colorWhite bgPurple bold">close</a>
         <h2 class="colorWhite titleModal thing secondFont">ARISTEA DESARROLLOS</h2>
         <a class="absolute" href="http://aristead.mx/" target="_blank">
          <i class="material-icons colorPurpleLight small">launch</i>
@@ -24,7 +24,7 @@
       <div class="main col s12 m8 bgGrayLight02 relative">
          <i class="flaticon-apple colorBlue center-align absolute"></i>
           <figure class="absolute hidden centerAbsolute">
-            <img src="./assets/images/ari/home-tablet.jpg" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">
+            <img src="./assets/images/ari/tablet.gif" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">
           </figure> 
       </div>
       <div class="mainor col s12 m4 bgBlueLigth  relative">

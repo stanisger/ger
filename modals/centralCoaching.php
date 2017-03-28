@@ -4,7 +4,7 @@
 
       <!-- head -->
       <div class="modal-header bgPurple relative">
-        <a href ="#"class="material-icons modal-action modal-close fixed colorWhite bgPurple bold">close</a>
+        <a class="material-icons modal-action modal-close fixed colorWhite bgPurple bold">close</a>
         <h2 class="colorWhite titleModal thing secondFont">Central Coaching</h2>
         <a class="absolute" href="http://centralcoaching.com.mx" target="_blank">
          <i class="material-icons colorPurpleLight small">launch</i>

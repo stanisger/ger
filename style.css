@@ -5,6 +5,12 @@
 .bgTransparent {
   background-color: transparent !important; }
 
+.colorAqua {
+  color: #b7e3e9 !important; }
+
+.bgAqua {
+  background-color: #b7e3e9 !important; }
+
 .colorRedLight {
   color: #f8e1e1 !important; }
 
@@ -144,6 +150,9 @@
 
 .w100 {
   width: 100%; }
+
+.w55 {
+  width: 55%; }
 
 .h100 {
   height: 100%; }
@@ -296,10 +305,12 @@ footer .container a {
     .tab ul li a.active {
       position: relative; }
 .tab p {
-  max-width: 843px;
+  max-width: 990px;
   margin: 0; }
 .tab .gallery {
-  padding: 46px 0; }
+  padding: 9px 0 18px; }
+  .tab .gallery > p {
+    padding: 0 18px; }
   .tab .gallery .card {
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.34), 0 1px 5px 0 rgba(0, 0, 0, 0.32), 0 3px 1px -2px rgba(0, 0, 0, 0.32);
     -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.34), 0 1px 5px 0 rgba(0, 0, 0, 0.32), 0 3px 1px -2px rgba(0, 0, 0, 0.32);
@@ -340,7 +351,7 @@ footer .container a {
       .tab .gallery .card .card-image:hover {
         opacity: .7; }
       .tab .gallery .card .card-image img {
-        opacity: .7; }
+        opacity: .9; }
         @media (min-width: 768px) {
           .tab .gallery .card .card-image img {
             opacity: 1; } }

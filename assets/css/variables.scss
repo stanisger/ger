@@ -9,6 +9,16 @@ $transparent: transparent;
 }
 
 
+// ∆∆∆   COLORs   ∆∆∆
+
+$aqua: #b7e3e9;
+.colorAqua{
+	color: $aqua !important;
+}
+.bgAqua{
+	background-color: $aqua !important; 
+}
+
 
 $redLight: #f8e1e1;
 .colorRedLight{

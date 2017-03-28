@@ -1,19 +1,23 @@
 
    <!-- Modal Structure -->
-  <div id="modal7" class="modal bottom-sheet ">
-    <div class="modal-header bgGray ">
-      <a href ="#"class="material-icons modal-action modal-close fixed colorWhite">close</a>
-      <h2 class="colorWhite titleModal thing secondFont">ARISTEA <strong>DESAROLOS</strong> </h2>
-      <a class="absolute" href="http://centralcoaching.com.mx" target="_blank">
+  <div id="modal6" class="modal bottom-sheet ">
+     <!-- head -->
+      <div class="modal-header bgPurple relative">
+        <a class="material-icons modal-action modal-close fixed colorWhite bgPurple bold">close</a>
+        <h2 class="colorWhite titleModal thing secondFont">BLT</h2>
+        <a class="absolute" href="http://bltmexico.com.mx/" target="_blank">
          <i class="material-icons colorPurpleLight small">launch</i>
         </a> 
-    </div>
+      </div>
+
+
+
     <div class="modal-content row">
 
       <div class="eyecatcher col s12 bgWhite relative">
         <i class="flaticon-computer colorBlue center-align absolute" id="animate1"></i>
         <figure class="absolute hidden centerAbsolute">
-           <img src="./assets/images/ari/home.jpg" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">
+           <img src="./assets/images/blt/diseno.jpg" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">
         </figure> 
       </div>
 
@@ -26,7 +30,7 @@
       <div class="mainor col s12 m4 bgBlueLigth  relative">
         <i class="flaticon-smartphone-screen colorBlue center-align absolute"></i>
           <figure class="absolute hidden centerAbsolute">
-            <img src="./assets/images/ari/home-mobile.jpg" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">
+            <img src="./assets/images/blt/home-mobile.jpg" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">
           </figure> 
       </div>
 
@@ -55,10 +59,10 @@
               
             </ul>
           <br><br>
-          <a href="centralcoaching.com" target="_blank" class="colorPurple fontSecond">www.centralcoaching.com</a>
+          <a href="http://bltmexico.com.mx/" target="_blank" class="colorPurple fontSecond">www.bltmexico.com.mx</a>
         </div>
         <div class="col s12 m6 bgWhite relative paddingCero"> 
-          <img class="w100"src="./assets/images/ari/diseno.jpg" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">
+          <img class="w100"src="./assets/images/blt/diseno.jpg" class="absolute"alt="Diseño y desarrollo web gersain.com.mx">
       </div>
 
     </div>

@@ -7,12 +7,10 @@
 
     <!--∆ link tabs∆-->
     <ul id="tabs-swipe-demo" class="tabs"> 
-        <li class="tab "><a class="title colorPurple thing active" href="#test-swipe-1"> <strong>DISEÑO WEB</strong> & FRONT END</a></li>
-        <li class="tab "><a class="title colorPurple thing" href="#test-swipe-2">DISEÑO GRÁFICO</a></li>
-        <li class="tab  "><a class="title colorPurple thing" href="#test-swipe-3">ILUSTRACIÓN</a></li>
-    </ul>
-    <p class="secondFont light colorGray"> <strong class="bold">Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Excepturi blanditiis, architecto dicta. Quam maiores dolore ipsum suscipit, sint sequi praesentium modi,vero perspiciatis, accusamus hic quaerat laborum, voluptatum voluptas necessitatibus! </p>
-    
+        <li class="tab "><a class="title colorPurple thing active" href="#test-swipe-1"> <strong>FRONT END</strong> & <strong>DISEÑO WEB</strong></a></li>
+        <li class="tab "><a class="title colorPurple thing" href="#test-swipe-2"><strong>DISEÑO GRÁFICO</strong></a></li>
+        <li class="tab  "><a class="title colorPurple thing" href="#test-swipe-3"><strong>ILUSTRACIÓN</strong></a></li>
+    </ul>    
     <!--∆∆ Portafolio front End diseño web ∆∆-->
     <?php include 'frontEnd.php';?>
 

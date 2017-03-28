@@ -4,7 +4,7 @@
 
       <!-- head -->
       <div class="modal-header bgPurple relative">
-        <a href ="#"class="material-icons modal-action modal-close fixed colorWhite bgPurple bold">close</a>
+        <a class="material-icons modal-action modal-close fixed colorWhite bgPurple bold">close</a>
         <h2 class="colorWhite titleModal thing secondFont">Print Spot</h2>
         <a class="habsolute" href="http://gersain.com.mx/printSpot" target="_blank">
          <i class="material-icons colorPurpleLight small">launch</i>
